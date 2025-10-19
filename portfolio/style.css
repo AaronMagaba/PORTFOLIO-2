@@ -1,0 +1,57 @@
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #222;
+}
+
+h2 {
+  font-weight: 700;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0,0,0,0.7)), 
+              url("assets/bg.jpg") center/cover no-repeat;
+  height: 100vh;
+}
+
+.hero-img {
+  border: 4px solid #fff;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background-color: #111;
+  color: #aaa;
+}
+
+/* Cards */
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Buttons */
+.btn-light {
+  color: #111;
+  background-color: #fff;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-light:hover {
+  background-color: #ddd;
+}
